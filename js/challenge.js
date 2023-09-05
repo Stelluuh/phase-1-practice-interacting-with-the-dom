@@ -65,7 +65,7 @@ function countDown() {
   counter.innerText = parseInt(counter.innerText, 10) -1
 }
 function disableButtons() {
-  plus.disabled = true;
+  plus.disabled = true; //.disabled is a property in all buttons that you can set to true or false. 
   minus.disabled = true;
   heart.disabled = true;
   submit.disabled = true;
